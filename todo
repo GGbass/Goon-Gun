@@ -1,0 +1,94 @@
+Checklist de arranque para GoonGun
+A continuación encontrarás un checklist con los pasos esenciales para poner en marcha tu shooter 2D en C++ y sentar las bases de un futuro multijugador.
+
+
+
+Define la estructura de carpetas: src, include, assets, third_party, docs.
+
+Añade README.md describiendo visión, stack y objetivos.
+
+Configurar entorno de desarrollo
+
+Instala compilador (GCC, Clang o MSVC) y CMake.
+
+Elige IDE o editor (CLion, Visual Studio, VS Code).
+
+Asegura versiones de SFML o SDL2 instaladas y linkeadas.
+
+Definir sistema de compilación con CMake
+
+Crea CMakeLists.txt principal y módulos para librerías externas.
+
+Configura rutas de include y linkeo a SFML/SDL2, EnTT, Box2D.
+
+Verifica build limpio sin código de juego.
+
+Integrar ECS y física básica
+
+Añade EnTT como submódulo y configura target en CMake.
+
+Integra Box2D para colisiones y físicas de proyectiles.
+
+Prueba movimiento de una entidad con físicas sencillas.
+
+Prototipo de combate y disparo
+
+Implementa movimiento del jugador, disparo y retroceso.
+
+Crea proyectiles que detecten colisiones y apliquen daño.
+
+Diseña un enemigo estático que reciba daño y muera.
+
+Generador procedural de armas
+
+Define esquema JSON/INI con atributos de arma (daño, cadencia, alcance).
+
+Programa lógica que combine cuerpo, cargador y elemento.
+
+Muestra stats en consola o ventana de debug.
+
+HUD y herramientas de debug
+
+Integra Dear ImGui para interfaz de debug.
+
+Muestra vida, munición, stats del arma y FPS.
+
+Añade sliders o inputs para ajustar parámetros en tiempo real.
+
+Primer vertical slice
+
+Crea un nivel compacto con plataformas, coberturas y oleada de enemigos.
+
+Ajusta mecánicas hasta lograr sensaciones divertidas.
+
+Documenta proceso y resultados en docs/vertical_slice.md.
+
+Planificación de milestones
+
+Define issues y etiquetas: feature, bug, enhancement.
+
+Asigna milestones: inventario, clases, networking, UI.
+
+Establece deadlines realistas para cada etapa.
+
+Preparación para multijugador
+
+Investiga y añade ENet o Asio como dependencia.
+
+Diseña protocolo de red y serialización con FlatBuffers.
+
+Implementa servidor autoritario mínimo que sincronice posición y disparos.
+
+A modo de complemento, una vez completes el prototipo base podrías:
+
+Crear un editor de niveles en JSON con vista previa en tu juego.
+
+Desarrollar shaders 2D para efectos visuales de recarga y daño.
+
+Añadir soporte completo de gamepads y mapeo configurable.
+
+Automatizar compilaciones y pruebas con GitHub Actions.
+
+Definir licencias y guía de contribución para código abierto.
+
+Si quieres ejemplos concretos de CMakeLists.txt, esquemas JSON o fragmentos de código en C++ para cualquiera de estos pasos, solo dímelo y los preparo al instante.
