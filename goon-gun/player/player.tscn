@@ -6,12 +6,10 @@
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_wjlw2"]
 
-[node name="Player" type="Node3D" unique_id=1286682374]
+[node name="Player" type="CharacterBody3D" unique_id=759406999]
 script = ExtResource("1_oul6g")
 
-[node name="CharacterBody3D" type="CharacterBody3D" parent="." unique_id=1385504483]
-
-[node name="Visual" type="MeshInstance3D" parent="." unique_id=155033297]
+[node name="Visual" type="MeshInstance3D" parent="." unique_id=885940185]
 mesh = SubResource("BoxMesh_7usp6")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=453258967]

@@ -1,10 +1,14 @@
 [gd_scene format=3 uid="uid://dldv0jgd5rkda"]
 
+[ext_resource type="PackedScene" uid="uid://chsx5aakidwa3" path="res://player/player.tscn" id="1_db5cl"]
+
 [sub_resource type="PlaneMesh" id="PlaneMesh_wjlw2"]
 size = Vector2(20, 20)
 
 [node name="main" type="Node3D" unique_id=2101090508]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.9073486e-06, -0.7156658)
+
+[node name="Player" parent="." unique_id=759406999 instance=ExtResource("1_db5cl")]
 
 [node name="Floor" type="MeshInstance3D" parent="." unique_id=1834914715]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00454998, 0.05598879, -0.30818832)
