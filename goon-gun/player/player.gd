@@ -16,7 +16,7 @@ const SPEED = 5.0
 
 func _physics_process(delta):
 	var input_vector = Input.get_vector("move_left", "move_right", "move_foward", "move_backward")
-	delta = delta + 1
+	delta = delta + 0
 	var direction = Vector3(input_vector.x, 0, input_vector.y)
 	velocity.x = direction.x * SPEED
 	velocity.z = direction.z * SPEED

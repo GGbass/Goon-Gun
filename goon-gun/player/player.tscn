@@ -1,13 +1,13 @@
-[gd_scene format=3 uid="uid://c6pb8jus6ogt4"]
+[gd_scene format=3 uid="uid://chsx5aakidwa3"]
 
-[ext_resource type="Script" uid="uid://cqc6ev2rt3a2a" path="res://player/node_3d.gd" id="1_7usp6"]
+[ext_resource type="Script" uid="uid://cqc6ev2rt3a2a" path="res://player/player.gd" id="1_oul6g"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_7usp6"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_wjlw2"]
 
 [node name="Player" type="Node3D" unique_id=1286682374]
-script = ExtResource("1_7usp6")
+script = ExtResource("1_oul6g")
 
 [node name="CharacterBody3D" type="CharacterBody3D" parent="." unique_id=1385504483]
 
