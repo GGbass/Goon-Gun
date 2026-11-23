@@ -1,6 +1,4 @@
 Checklist de arranque para GoonGun
-A continuación encontrarás un checklist con los pasos esenciales para poner en marcha tu shooter 2D en C++ y sentar las bases de un futuro multijugador.
-
 
 
 Define la estructura de carpetas: src, include, assets, third_party, docs.
@@ -90,5 +88,3 @@ Añadir soporte completo de gamepads y mapeo configurable.
 Automatizar compilaciones y pruebas con GitHub Actions.
 
 Definir licencias y guía de contribución para código abierto.
-
-Si quieres ejemplos concretos de CMakeLists.txt, esquemas JSON o fragmentos de código en C++ para cualquiera de estos pasos, solo dímelo y los preparo al instante.

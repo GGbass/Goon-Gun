@@ -9,6 +9,7 @@ CYAN = \033[0;96m
 WHITE = \033[0;97m
 
 CLASS_DIR = . #current directory
+#HPP_DIR = ./includes
 CLASS ?= $(filter-out class,$(MAKECMDGOALS))
 CLASS_NAME = $(CLASS)
 HPP_FILE = $(CLASS_NAME).hpp
