@@ -9,6 +9,7 @@ size = Vector2(20, 20)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.9073486e-06, -0.7156658)
 
 [node name="Player" parent="." unique_id=759406999 instance=ExtResource("1_db5cl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.2779441, 0.6038002, -0.0529145)
 
 [node name="Floor" type="MeshInstance3D" parent="." unique_id=1834914715]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00454998, 0.05598879, -0.30818832)
